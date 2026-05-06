@@ -1,4 +1,4 @@
-# MV Public — Plugins para RPG Maker MV
+# MV_Public — Plugins para RPG Maker MV
 
 Coleção de plugins para RPG Maker MV desenvolvidos com foco em performance, flexibilidade e facilidade de integração.
 
