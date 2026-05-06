@@ -1,53 +1,53 @@
-# MV_Public — Plugins para RPG Maker MV
+# MV_Public — Plugins for RPG Maker MV
 
-Coleção de plugins para RPG Maker MV desenvolvidos com foco em performance, flexibilidade e facilidade de integração.
+A collection of plugins for RPG Maker MV developed with a focus on performance, flexibility, and ease of integration.
 
-Este repositório reúne soluções prontas para acelerar o desenvolvimento de jogos, reduzindo retrabalho e ampliando as possibilidades do engine.
-
----
-
-## Plugins Disponíveis
-
-| Plugin         | Versão | Descrição                                                      | Status |
-|----------------|--------|----------------------------------------------------------------|--------|
-| AdvancedMenu   | 1.2.0  | Menu principal altamente customizável e modular               | Ativo  |
-| BattleSystemX  | 1.1.3  | Sistema de batalha flexível (ATB / CTB / Action)              | Ativo  |
-| SkillTreePro   | 1.0.8  | Sistema avançado de árvore de habilidades                     | Ativo  |
-| SaveSystemPlus | 1.3.1  | Sistema de salvamento com thumbnails, autosave e múltiplos slots | Ativo  |
-
-A tabela deve ser atualizada conforme novos plugins forem adicionados.
+This repository provides ready-to-use solutions to accelerate game development, reduce rework, and expand the engine's capabilities.
 
 ---
 
-## Instalação
+## Available Plugins
 
-1. Baixe o arquivo `.js` do plugin desejado  
-2. Copie o arquivo para a pasta `js/plugins` do seu projeto  
-3. Abra o Plugin Manager no RPG Maker MV  
-4. Ative o plugin e configure os parâmetros conforme necessário  
-5. Salve o projeto e execute testes  
+| Plugin         | Version | Description                                                      | Status |
+|----------------|---------|------------------------------------------------------------------|--------|
+| AdvancedMenu   | 1.2.0   | Highly customizable and modular main menu                       | Active |
+| BattleSystemX  | 1.1.3   | Flexible battle system (ATB / CTB / Action)                     | Active |
+| SkillTreePro   | 1.0.8   | Advanced skill tree system                                      | Active |
+| SaveSystemPlus | 1.3.1   | Save system with thumbnails, autosave, and multiple slots       | Active |
 
-Recomenda-se testar os plugins em um projeto separado antes de aplicá-los no projeto principal.
-
----
-
-## Compatibilidade
-
-- RPG Maker MV (versão 1.6.x recomendada)  
-- Alguns plugins podem funcionar no RPG Maker MZ com ajustes  
-- A compatibilidade com outros plugins pode variar e deve ser verificada na documentação individual  
+This table should be updated as new plugins are added.
 
 ---
 
-## Estrutura do Repositório
+## Installation
+
+1. Download the desired plugin `.js` file  
+2. Copy the file into your project's `js/plugins` folder  
+3. Open the Plugin Manager in RPG Maker MV  
+4. Enable the plugin and configure its parameters as needed  
+5. Save the project and run tests  
+
+It is recommended to test plugins in a separate project before applying them to your main project.
+
+---
+
+## Compatibility
+
+- RPG Maker MV (version 1.6.x recommended)  
+- Some plugins may work in RPG Maker MZ with adjustments  
+- Compatibility with other plugins may vary and should be checked in individual documentation  
+
+---
+
+## Repository Structure
 
 ```text
 MV_public/
 ├── js/
-│   └── plugins/     # Arquivos principais dos plugins (.js)
-├── img/             # Recursos gráficos utilizados
-├── fonts/           # Fontes customizadas (quando necessário)
-├── demo/            # Projetos de demonstração (quando disponível)
+│   └── plugins/     # Main plugin files (.js)
+├── img/             # Graphic assets used by plugins
+├── fonts/           # Custom fonts (when required)
+├── demo/            # Demo projects (when available)
 ├── README.md
 ├── LICENSE
 └── changelog.md
