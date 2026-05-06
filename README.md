@@ -1,3 +1,4 @@
+```markdown
 # MV Public - Plugins RPG Maker MV
 
 Coleção de plugins para RPG Maker MV desenvolvidos com foco em qualidade, performance e facilidade de uso.
@@ -31,33 +32,17 @@ Recomenda-se testar os plugins em um projeto de teste antes de aplicar no projet
 
 ## Estrutura do Repositório
 
+```text
 MV_public/
-├── js/plugins/          Todos os plugins (.js)
-├── img/                 Imagens utilizadas pelos plugins
-├── fonts/               Fontes customizadas (quando necessário)
-├── demo/                Projeto de demonstração (quando disponível)
+├── js/
+│   └── plugins/
+│       └── (todos os arquivos .js dos plugins)
+├── img/
+│   └── (imagens utilizadas pelos plugins)
+├── fonts/
+│   └── (fontes customizadas, quando necessário)
+├── demo/
+│   └── (projeto de demonstração - quando disponível)
 ├── README.md
 ├── LICENSE
 └── changelog.md
-
-## Changelog
-
-O histórico completo de alterações está disponível no arquivo [changelog.md](changelog.md).
-
-## Créditos e Suporte
-
-Desenvolvido por: DadoCWB
-
-- Encontrou algum bug ou tem sugestão? Abra uma Issue.
-- Pull Requests são bem-vindos.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT.  
-Você é livre para usar, modificar e distribuir em projetos comerciais ou não comerciais, desde que mantenha o aviso de copyright.
-
-Veja o arquivo [LICENSE](LICENSE) para mais informações.
-
----
-
-Feito para a comunidade de RPG Maker MV.
